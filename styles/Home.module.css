@@ -109,6 +109,9 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+.footer a {
+    color: #0070f3;
+}
 
 .logo {
   height: 1em;
