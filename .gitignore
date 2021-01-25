@@ -32,3 +32,12 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# tmp SQL database
+sqlite/*.db
+
+# vscode & vs
+.vs
+*.vs
+.vscode
+*.vscode
