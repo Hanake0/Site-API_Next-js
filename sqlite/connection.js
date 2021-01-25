@@ -1,6 +1,6 @@
 import Database from 'better-sqlite3';
 
-const db = new Database('./sqlite/tmp.db', { verbose: console.log });
+const db = new Database(':memory:', { verbose: console.log });
 
 const test = db.prepare(`CREATE TABLE IF NOT EXISTS test ( id IINTEGER PRIMARY KEY, initDate TEXT NOT NULL, lastTest TEXT)`);
 test.run();
